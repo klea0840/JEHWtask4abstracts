@@ -1,0 +1,8 @@
+package playrecord;
+
+public interface Recordable {
+    void record();
+    void pause();
+    void stop();
+
+}
