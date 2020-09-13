@@ -1,5 +1,12 @@
 package task0;
 
-public abstract class Shape {
+// Модификатор public здесь не нужен, как и Rectangle, Circle и Main,
+// т.к. к ним обращаются только изнутри пакета.
+// Всегда следует выбирать максимально ограниченный модификатор доступа,
+// который, тем не менее, позволяет решить задачу.
+
+// TODO: убрать модификаторы public у других классов.
+
+abstract class Shape {
     public abstract void draw();
 }
