@@ -10,6 +10,8 @@ public class Main {
         System.out.print("Enter XML, DOC or TXT format: ");
         String format = sc.nextLine();
 
+        // Строки 18-21, 25-28, 32-35 фактически одинаковы.
+        // TODO: Посмотреть 4-ую задачу из предыдущего урока.
         switch (format) {
             case "XML":
                 AbstractHandler xml = new XMLHandler();
